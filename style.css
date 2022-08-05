@@ -10,11 +10,12 @@ body{
     justify-content: center;
     align-items:center;
     margin-top: 50px;
+    font-family: 'Roboto', arial;
 }
 .header{
     display:flex;
     flex-direction: column;
-
+    font-family: 'Roboto', arial;
     background-color: #1F2937;
 }
 
@@ -23,7 +24,7 @@ body{
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
-
+    font-family: 'Roboto', arial;
 }
 
 .quote p{
@@ -88,6 +89,7 @@ body{
     width: 225px;
     text-align: center;
     flex-wrap: wrap;
+    font-family: 'Roboto', arial;
 }
 
 .content-info img {
@@ -106,16 +108,69 @@ ul {
 li{
     display:inline;
     margin:15px;
+    font-family: 'Roboto', arial;
 }
 
 a{
     text-decoration: none;
     font-size:18px;
+    font-family: 'Roboto', arial;
     color:#E5E7EB;
 }
 
-.toppage {
+.toppage{
     display: flex;
     justify-content: space-around;
     margin-top:20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:150px;
+    font-family: 'Roboto', arial;
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    margin-right:150px;
+    flex-wrap:wrap;
+    width:500px;
+    font-family: 'Roboto', arial;
+}
+
+.headertext{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    font-family: 'Roboto', arial;
+    margin-bottom: 20px;
+    margin-top:55px;
+}
+
+.subtext{
+    font-size: 18px;
+    color:#E5E7EB;
+    font-family: 'Roboto', arial;
+    margin-bottom: 20px;
+}
+
+.left button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero img {
+    margin-top: 60px;
 }
